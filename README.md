@@ -1,2 +1,2 @@
 # app-hpctest
-HPC Test Bench based on CentOS
+HPC GAMESS HPC Docker based upon Nimbix app-hpctest Test Bench based on CentOS
