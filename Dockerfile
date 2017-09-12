@@ -7,7 +7,7 @@ FROM jarvice/app-hpctest
 RUN yum -y install csh atlas ack && yum clean all
 
 RUN mkdir /scratch && \
-    sudo ln -s /usr/bin/bash /bin/bash && \
+    sudo ln -s /bin/bash /usr/bin/bash && \
     #### ---- fix openmpi's include folder is located at different location
     sudo ln -s /usr/include/openmpi-x86_64 /usr/lib64/openmpi/include && \
     ## ----- blast ----
